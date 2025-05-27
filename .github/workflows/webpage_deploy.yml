@@ -4,7 +4,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches:
-      - master
+      - pause_api
     paths:
       - webpage/**
       - .github/workflows/webpage_build.yml
