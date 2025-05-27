@@ -3,7 +3,7 @@ name: Test Server
 on:
   pull_request:
     branches:
-      - master
+      - pause_api
     paths:
       - server/**
       - .github/workflows/server_test.yml

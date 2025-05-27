@@ -3,7 +3,7 @@ name: Build and Push to Docker Hub
 on:
   push:
     branches:
-      - master
+      - pause_api
     paths-ignore:
       - 'webpage/**'
   #
@@ -20,7 +20,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  DOCKER_IMAGE: m1k1o/neko
+  DOCKER_IMAGE: zerohh666/neko
 
 jobs:
   build-base:
@@ -29,7 +29,6 @@ jobs:
     #
     # do not run on forks
     #
-    if: github.repository_owner == 'm1k1o'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -50,7 +49,7 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
-          username: ${{ github.actor }}
+          username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_TOKEN }}
 
       - name: Generate base Dockerfile
@@ -72,7 +71,6 @@ jobs:
     #
     # do not run on forks
     #
-    if: github.repository_owner == 'm1k1o'
     needs: build-base
     strategy:
       # Will build all images even if some fail.
@@ -115,7 +113,7 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
-          username: ${{ github.actor }}
+          username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_TOKEN }}
 
       - name: Build and push

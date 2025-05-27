@@ -3,7 +3,7 @@ name: Test Client
 on:
   pull_request:
     branches:
-      - master
+      - pause_api
     paths:
       - client/**
       - .github/workflows/client_build.yml
