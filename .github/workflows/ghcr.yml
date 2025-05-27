@@ -2,8 +2,8 @@ name: Build and Push to GHCR
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - pause_api
 
 jobs:
   build-base:

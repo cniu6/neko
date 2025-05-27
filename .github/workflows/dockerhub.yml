@@ -3,7 +3,7 @@ name: Build and Push to Docker Hub
 on:
   push:
     branches:
-      - pause_api
+      - master
     paths-ignore:
       - 'webpage/**'
   #
