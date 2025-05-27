@@ -8,6 +8,7 @@ on:
       - server/**
       - .github/workflows/server_test.yml
 
+
 jobs:
   build-amd64:
     name: Build amd64
