@@ -1,0 +1,108 @@
+/* 
+这个CSS文件用于进一步隐藏Chrome中的UI元素
+将此文件放在Chrome的用户数据目录下的Default/User StyleSheets/目录中
+通常路径为: ~/AppData/Local/Google/Chrome/User Data/Default/User StyleSheets/Custom.css
+*/
+
+/* 隐藏新标签页的各种元素 */
+html[inited="true"] #newtab-customize-button,
+html[inited="true"] .logo-doodle,
+html[inited="true"] .logo-separator,
+html[inited="true"] .logo-subtext,
+html[inited="true"] .promo-box,
+html[inited="true"] .fakebox-container,
+html[inited="true"] #fakebox-text,
+html[inited="true"] #fakebox-cursor,
+html[inited="true"] #fakebox-microphone,
+html[inited="true"] #most-visited,
+html[inited="true"] .tile-grid,
+html[inited="true"] .mv-row,
+html[inited="true"] .logo-header,
+html[inited="true"] .close-button,
+html[inited="true"] #notification-permissions,
+html[inited="true"] #one-google,
+html[inited="true"] #footer,
+html[inited="true"] .fakebox-focus,
+html[inited="true"] #notification {
+    display: none !important;
+}
+
+/* 隐藏地址栏下拉菜单 */
+.omnibox-results {
+    display: none !important;
+}
+
+/* 隐藏下载栏 */
+#download-shelf,
+#download-toolbar,
+.download-toolbar,
+.download-item {
+    display: none !important;
+}
+
+/* 隐藏信息栏 */
+.infobars,
+.infobar {
+    display: none !important;
+}
+
+/* 隐藏Cookie同意提示 */
+.cookie-banner,
+.consent-banner,
+.privacy-policy-banner,
+[class*="cookie"],
+[class*="gdpr"],
+[id*="cookie"],
+[id*="consent"] {
+    display: none !important;
+}
+
+/* 隐藏页面加载错误UI */
+.error-code,
+.icon,
+.offline-content,
+.offline-content-list,
+.snackbar,
+.reload-button-area,
+.nav-wrapper,
+.error-information-button-container {
+    display: none !important;
+}
+
+/* 隐藏各种工具栏和状态栏 */
+.toolbar,
+.status-bar,
+.status-message,
+.status-bubble {
+    display: none !important;
+}
+
+/* 隐藏滚动条 */
+::-webkit-scrollbar {
+    width: 0px !important;
+    height: 0px !important;
+}
+
+::-webkit-scrollbar-button {
+    display: none !important;
+}
+
+::-webkit-scrollbar-track {
+    display: none !important;
+}
+
+::-webkit-scrollbar-track-piece {
+    display: none !important;
+}
+
+::-webkit-scrollbar-thumb {
+    display: none !important;
+}
+
+::-webkit-scrollbar-corner {
+    display: none !important;
+}
+
+::-webkit-resizer {
+    display: none !important;
+}

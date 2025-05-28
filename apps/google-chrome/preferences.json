@@ -1,12 +1,16 @@
 {
-  "homepage": "http://www.google.com",
-  "homepage_is_newtabpage": false,
+  "homepage": "https://search.ee.st",
+  "homepage_is_newtabpage": true,
   "first_run_tabs": [
-    "https://www.google.com/_/chrome/newtab?ie=UTF-8"
+    "https://search.ee.st"
   ],
   "custom_links": {
     "initialized": true,
     "list": [
+      {
+        "title": "EE.ST",
+        "url": "https://ee.st/"
+      },
       {
         "title": "YouTube",
         "url": "https://www.youtube.com/"
@@ -20,55 +24,91 @@
         "url": "https://www.hulu.com/"
       },
       {
-        "title": "9Anime",
-        "url": "https://9anime.to/"
-      },
-      {
-        "title": "Crunchy Roll",
-        "url": "https://www.crunchyroll.com/"
-      },
-      {
-        "title": "Funimation",
-        "url": "https://www.funimation.com/"
-      },
-      {
-        "title": "Disney+",
-        "url": "https://www.disneyplus.com/"
-      },
-      {
-        "title": "HBO Now",
-        "url": "https://play.hbonow.com/"
-      },
-      {
-        "title": "Amazon Video",
-        "url": "https://www.amazon.com/Amazon-Video/b?node=2858778011"
-      },
-      {
-        "title": "VRV",
-        "url": "https://vrv.co/"
-      },
-      {
-        "title": "Twitch",
-        "url": "https://www.twitch.tv/"
-      },
-      {
-        "title": "Mixer",
-        "url": "https://mixer.com/"
+        "title": "Amazon",
+        "url": "https://www.amazon.com/"
       }
     ]
   },
   "browser": {
     "custom_chrome_frame": false,
-    "show_home_button": true,
+    "show_home_button": false,
     "window_placement": {
       "maximized": true
-    }
+    },
+    "check_default_browser": false,
+    "enable_spellchecking": false,
+    "enable_do_not_track": true,
+    "clear_data": {
+      "time_period": 4
+    },
+    "show_toolbar_bookmarks_button": false,
+    "show_update_promotion_info_bar": false,
+    "enable_reader_mode": false,
+    "enabled_labs_experiments": [
+      "enable-force-dark",
+      "disable-accelerated-video-decode"
+    ]
   },
   "bookmark_bar": {
-    "show_on_all_tabs": false
+    "show_on_all_tabs": false,
+    "show_apps_shortcut_bar": false,
+    "show_managed_bookmarks": false,
+    "show_on_ntp": false
+  },
+  "extensions": {
+    "toolbarsize": 0,
+    "ui": {
+      "developer_mode": false,
+      "browser_action_visibility": []
+    },
+    "theme": {
+      "use_system": false,
+      "id": ""
+    }
+  },
+  "search": {
+    "suggest_enabled": false
+  },
+  "translate": {
+    "enabled": false
+  },
+  "media": {
+    "engagement": {
+      "schema_version": 5
+    },
+    "autoplay_enabled": false
+  },
+  "credentials_enable_service": true,
+  "credentials_enable_autosignin": true,
+  "payments": {
+    "can_make_payment_enabled": false
+  },
+  "safebrowsing": {
+    "enabled": false,
+    "scout_reporting_enabled": false
   },
   "sync_promo": {
     "show_on_first_run_allowed": false
+  },
+  "ntp": {
+    "custom_background_dict": {
+      "type": "solid",
+      "color": "#000000"
+    },
+    "num_personal_suggestions": 0,
+    "show_apps": false,
+    "show_bookmarks": false,
+    "show_most_visited": false,
+    "show_other_devices": false,
+    "show_recently_closed": false,
+    "show_suggestions": false,
+    "visible_icons": []
+  },
+  "privacy_sandbox": {
+    "apis_enabled": false,
+    "topics_enabled": false,
+    "fledge_enabled": false,
+    "m1": 0
   },
   "distribution": {
     "import_bookmarks_from_file": "bookmarks.html",
@@ -82,8 +122,8 @@
     "do_not_create_taskbar_shortcut": true,
     "do_not_launch_chrome": true,
     "do_not_register_for_update_launch": true,
-    "make_chrome_default": true,
-    "make_chrome_default_for_user": true,
+    "make_chrome_default": false,
+    "make_chrome_default_for_user": false,
     "system_level": false,
     "verbose_logging": false
   },
@@ -97,14 +137,41 @@
       "media_stream_mic": 2,
       "midi_sysex": 2,
       "payment_handler": 2,
-      "usb_guard": 2
+      "usb_guard": 2,
+      "ads": 2,
+      "automatic_downloads": 2,
+      "background_sync": 2,
+      "bluetooth_scanning": 2,
+      "client_hints": 2,
+      "important_site_info": 2,
+      "mixed_script": 2,
+      "notifications": 2,
+      "sound": 2
     },
     "name": "neko",
     "using_default_avatar": false,
     "using_default_name": false,
-    "using_gaia_avatar": false
+    "using_gaia_avatar": false,
+    "password_manager_enabled": true,
+    "form_fill_enabled": true,
+    "enable_do_not_track": true,
+    "block_third_party_cookies": false
   },
   "signin": {
-    "allowed": false
+    "allowed": false,
+    "allowed_on_next_startup": false
+  },
+  "autofill": {
+    "enabled": true,
+    "profile_enabled": true,
+    "credit_card_enabled": true
+  },
+  "spellcheck": {
+    "dictionaries": [],
+    "dictionary": "",
+    "use_spelling_service": false
+  },
+  "intl": {
+    "accept_languages": "en-US,en"
   }
 }

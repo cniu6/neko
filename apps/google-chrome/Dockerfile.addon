@@ -1,0 +1,15 @@
+# 添加到现有Dockerfile末尾的配置
+# 复制自定义启动脚本
+COPY start-chrome.sh /usr/bin/start-chrome
+RUN chmod +x /usr/bin/start-chrome
+
+# 设置环境变量
+ENV CHROME_LAUNCH_ARGS="--app=https://search.ee.st --kiosk --disable-infobars --no-default-browser-check --no-first-run --disable-translate --disable-features=TranslateUI"
+
+# 可以通过以下方式启动Chrome：
+# 1. 直接使用脚本: start-chrome
+# 2. 传递简化参数: google-chrome $CHROME_LAUNCH_ARGS
+# 3. 完整参数设置: 使用start-chrome.sh中的所有参数
+
+# 自定义Chrome启动入口点（可选）
+# ENTRYPOINT ["/usr/bin/start-chrome"] 

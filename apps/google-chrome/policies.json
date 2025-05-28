@@ -1,6 +1,6 @@
 {
-  "AutofillAddressEnabled": false,
-  "AutofillCreditCardEnabled": false,
+  "AutofillAddressEnabled": true,
+  "AutofillCreditCardEnabled": true,
   "BrowserSignin": 0,
   "DefaultNotificationsSetting": 2,
   "DeveloperToolsAvailability": 2,
@@ -8,7 +8,7 @@
   "FullscreenAllowed": true,
   "IncognitoModeAvailability": 1,
   "SyncDisabled": true,
-  "AutoplayAllowed": true,
+  "AutoplayAllowed": false,
   "BrowserAddPersonEnabled": false,
   "BrowserGuestModeEnabled": false,
   "DefaultPopupsSetting": 2,
@@ -17,23 +17,119 @@
   "AllowFileSelectionDialogs": false,
   "PromptForDownloadLocation": false,
   "BookmarkBarEnabled": false,
-  "PasswordManagerEnabled": false,
+  "PasswordManagerEnabled": true,
+  "DefaultSearchProviderEnabled": true,
+  "DefaultSearchProviderName": "DuckDuckGo",
+  "DefaultSearchProviderSearchURL": "https://duckduckgo.com/?q={searchTerms}",
+  "DefaultSearchProviderSuggestURL": "https://duckduckgo.com/ac/?q={searchTerms}&type=list",
+  "DefaultBrowserSettingEnabled": false,
+  "ShowCastIconInToolbar": false,
+  "PrintingEnabled": false,
+  "ShowAppsShortcutInBookmarkBar": false,
+  "ShowFullUrlsInAddressBar": false,
+  "ShowHomeButton": false,
+  "ToolbarIconsEnabled": false,
+  "TranslateEnabled": false,
+  "SpellcheckEnabled": false,
+  "SpellCheckServiceEnabled": false,
+  "AudioSandboxEnabled": false,
+  "AutofillAddressEnabled": false,
+  "AutofillCreditCardEnabled": false,
+  "AutoplayAllowed": false,
+  "BackgroundModeEnabled": false,
+  "BlockThirdPartyCookies": false,
+  "BrowserLabsEnabled": false,
+  "BrowserNetworkTimeQueriesEnabled": false,
+  "ChromeCleanupEnabled": false,
+  "CloudPrintProxyEnabled": false,
+  "CloudPrintSubmitEnabled": false,
+  "ComponentUpdatesEnabled": false,
+  "CookiesAllowedForUrls": [],
+  "DefaultGeolocationSetting": 2,
+  "DefaultWebBluetoothGuardSetting": 2,
+  "DefaultWebUsbGuardSetting": 2,
+  "DisableScreenshots": true,
+  "DnsOverHttpsMode": "off",
+  "DownloadRestrictions": 3,
+  "EnableMediaRouter": false,
+  "EnableOnlineRevocationChecks": false,
+  "ForceYouTubeRestrict": 2,
+  "ForceGoogleSafeSearch": true,
+  "HideWebStoreIcon": true,
+  "HomepageIsNewTabPage": true,
+  "HttpsOnlyMode": "force_enabled",
+  "InPrivateBrowsingAllowed": false,
+  "IncognitoModeAvailability": 1,
+  "NetworkPredictionOptions": 2,
+  "NewTabPageLocation": "https://search.ee.st",
+  "PasswordLeakDetectionEnabled": false,
+  "PaymentMethodQueryEnabled": false,
+  "PdfAnnotationsEnabled": false,
+  "PrintRasterizationMode": 1,
+  "PromptForDownloadLocation": false,
+  "QuicAllowed": false,
+  "RelaunchNotification": 0,
+  "RequireOnlineRevocationChecksForLocalAnchors": false,
+  "RestoreOnStartup": 5,
+  "SSLErrorOverrideAllowed": false,
+  "SafeBrowsingExtendedReportingEnabled": false,
+  "SafeBrowsingForTrustedSourcesEnabled": false,
+  "SafeBrowsingProtectionLevel": 0,
+  "SaveCookiesOnExit": false,
+  "SearchSuggestEnabled": false,
+  "SignedHTTPExchangeEnabled": false,
+  "SitePerProcess": false,
+  "SuppressUnsupportedOSWarning": true,
+  "TaskManagerEndProcessEnabled": false,
+  "UserFeedbackAllowed": false,
+  "WebRtcEventLogCollectionAllowed": false,
+  "WebRtcIPHandlingPolicy": "disable_non_proxied_udp",
+  "WebUsbAllowDevicesForUrls": [],
   "URLAllowlist": [
     "file:///home/neko/Downloads"
   ],
   "URLBlocklist": [
-      "file://*",
-      "chrome://policy"
+    "file://*",
+    "chrome://policy",
+    "chrome://version",
+    "chrome://flags",
+    "chrome://settings",
+    "chrome://help",
+    "chrome://settings/help",
+    "chrome://about",
+    "chrome://about/help",
+    "chrome://settings/people",
+    "chrome"
   ],
   "ExtensionInstallForcelist": [
-      "cjpalhdlnbpafiamejdnhcphjbkeiagm;https://clients2.google.com/service/update2/crx",
-      "mnjggcdmjocbbbhaepdhchncahnbgone;https://clients2.google.com/service/update2/crx"
+    "cjpalhdlnbpafiamejdnhcphjbkeiagm;https://clients2.google.com/service/update2/crx",
+    "mnjggcdmjocbbbhaepdhchncahnbgone;https://clients2.google.com/service/update2/crx"
   ],
   "ExtensionInstallAllowlist": [
-      "cjpalhdlnbpafiamejdnhcphjbkeiagm",
-      "mnjggcdmjocbbbhaepdhchncahnbgone"
+    "cjpalhdlnbpafiamejdnhcphjbkeiagm",
+    "mnjggcdmjocbbbhaepdhchncahnbgone"
   ],
   "ExtensionInstallBlocklist": [
-      "*"
-  ]
+    "*"
+  ],
+  "ExtensionSettings": {
+    "*": {
+      "installation_mode": "blocked"
+    },
+    "cjpalhdlnbpafiamejdnhcphjbkeiagm": {
+      "installation_mode": "force_installed",
+      "update_url": "https://clients2.google.com/service/update2/crx",
+      "toolbar_pin": "force_hidden"
+    },
+    "mnjggcdmjocbbbhaepdhchncahnbgone": {
+      "installation_mode": "force_installed",
+      "update_url": "https://clients2.google.com/service/update2/crx",
+      "toolbar_pin": "force_hidden"
+    }
+  },
+  "HardwareAccelerationModeEnabled": false,
+  "StartupBrowserWindowLaunchSuppressed": true,
+  "KerberosEnabled": false,
+  "AutoOpenAllowedForURLs": [],
+  "AutoOpenFileTypes": []
 }
