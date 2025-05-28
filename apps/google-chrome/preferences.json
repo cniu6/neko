@@ -22,10 +22,6 @@
       {
         "title": "Hulu",
         "url": "https://www.hulu.com/"
-      },
-      {
-        "title": "Amazon",
-        "url": "https://www.amazon.com/"
       }
     ]
   },
@@ -35,80 +31,20 @@
     "window_placement": {
       "maximized": true
     },
-    "check_default_browser": false,
-    "enable_spellchecking": false,
-    "enable_do_not_track": true,
-    "clear_data": {
-      "time_period": 4
-    },
-    "show_toolbar_bookmarks_button": false,
-    "show_update_promotion_info_bar": false,
-    "enable_reader_mode": false,
-    "enabled_labs_experiments": [
-      "enable-force-dark",
-      "disable-accelerated-video-decode"
-    ]
+    "check_default_browser": false
   },
   "bookmark_bar": {
     "show_on_all_tabs": false,
-    "show_apps_shortcut_bar": false,
-    "show_managed_bookmarks": false,
-    "show_on_ntp": false
+    "show_apps_shortcut_bar": false
   },
   "extensions": {
     "toolbarsize": 0,
     "ui": {
-      "developer_mode": false,
-      "browser_action_visibility": []
-    },
-    "theme": {
-      "use_system": false,
-      "id": ""
+      "developer_mode": false
     }
-  },
-  "search": {
-    "suggest_enabled": false
-  },
-  "translate": {
-    "enabled": false
-  },
-  "media": {
-    "engagement": {
-      "schema_version": 5
-    },
-    "autoplay_enabled": false
-  },
-  "credentials_enable_service": true,
-  "credentials_enable_autosignin": true,
-  "payments": {
-    "can_make_payment_enabled": false
-  },
-  "safebrowsing": {
-    "enabled": false,
-    "scout_reporting_enabled": false
   },
   "sync_promo": {
     "show_on_first_run_allowed": false
-  },
-  "ntp": {
-    "custom_background_dict": {
-      "type": "solid",
-      "color": "#000000"
-    },
-    "num_personal_suggestions": 0,
-    "show_apps": false,
-    "show_bookmarks": false,
-    "show_most_visited": false,
-    "show_other_devices": false,
-    "show_recently_closed": false,
-    "show_suggestions": false,
-    "visible_icons": []
-  },
-  "privacy_sandbox": {
-    "apis_enabled": false,
-    "topics_enabled": false,
-    "fledge_enabled": false,
-    "m1": 0
   },
   "distribution": {
     "import_bookmarks_from_file": "bookmarks.html",
@@ -122,8 +58,8 @@
     "do_not_create_taskbar_shortcut": true,
     "do_not_launch_chrome": true,
     "do_not_register_for_update_launch": true,
-    "make_chrome_default": false,
-    "make_chrome_default_for_user": false,
+    "make_chrome_default": true,
+    "make_chrome_default_for_user": true,
     "system_level": false,
     "verbose_logging": false
   },
@@ -137,41 +73,14 @@
       "media_stream_mic": 2,
       "midi_sysex": 2,
       "payment_handler": 2,
-      "usb_guard": 2,
-      "ads": 2,
-      "automatic_downloads": 2,
-      "background_sync": 2,
-      "bluetooth_scanning": 2,
-      "client_hints": 2,
-      "important_site_info": 2,
-      "mixed_script": 2,
-      "notifications": 2,
-      "sound": 2
+      "usb_guard": 2
     },
     "name": "neko",
     "using_default_avatar": false,
     "using_default_name": false,
-    "using_gaia_avatar": false,
-    "password_manager_enabled": true,
-    "form_fill_enabled": true,
-    "enable_do_not_track": true,
-    "block_third_party_cookies": false
+    "using_gaia_avatar": false
   },
   "signin": {
-    "allowed": false,
-    "allowed_on_next_startup": false
-  },
-  "autofill": {
-    "enabled": true,
-    "profile_enabled": true,
-    "credit_card_enabled": true
-  },
-  "spellcheck": {
-    "dictionaries": [],
-    "dictionary": "",
-    "use_spelling_service": false
-  },
-  "intl": {
-    "accept_languages": "en-US,en"
+    "allowed": false
   }
 }

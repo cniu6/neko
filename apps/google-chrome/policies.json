@@ -23,12 +23,6 @@
   "DefaultSearchProviderSearchURL": "https://duckduckgo.com/?q={searchTerms}",
   "DefaultSearchProviderSuggestURL": "https://duckduckgo.com/ac/?q={searchTerms}&type=list",
   "DefaultBrowserSettingEnabled": false,
-  "ShowCastIconInToolbar": false,
-  "PrintingEnabled": false,
-  "ShowAppsShortcutInBookmarkBar": false,
-  "ShowFullUrlsInAddressBar": false,
-  "ShowHomeButton": false,
-  "ToolbarIconsEnabled": false,
   "URLAllowlist": [
     "file:///home/neko/Downloads"
   ],
