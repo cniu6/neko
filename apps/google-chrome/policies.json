@@ -36,8 +36,7 @@
     "chrome://settings/help",
     "chrome://about",
     "chrome://about/help",
-    "chrome://settings/people",
-    "chrome://*"
+    "chrome://settings/people"
   ],
   "ExtensionInstallForcelist": [
     "cjpalhdlnbpafiamejdnhcphjbkeiagm;https://clients2.google.com/service/update2/crx",
