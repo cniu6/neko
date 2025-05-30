@@ -1,8 +1,8 @@
 {
-  "homepage": "https://search.ee.st",
-  "homepage_is_newtabpage": true,
+  "homepage": "http://search.ee.st",
+  "homepage_is_newtabpage": false,
   "first_run_tabs": [
-    "https://search.ee.st"
+    "http://search.ee.st"
   ],
   "custom_links": {
     "initialized": true,
@@ -27,7 +27,7 @@
   },
   "browser": {
     "custom_chrome_frame": false,
-    "show_home_button": false,
+    "show_home_button": true,
     "window_placement": {
       "maximized": true
     },
@@ -75,7 +75,7 @@
       "payment_handler": 2,
       "usb_guard": 2
     },
-    "name": "neko",
+    "name": "room",
     "using_default_avatar": false,
     "using_default_name": false,
     "using_gaia_avatar": false
