@@ -1,8 +1,8 @@
 {
-  "homepage": "http://search.ee.st",
+  "homepage": "http://www.google.com",
   "homepage_is_newtabpage": false,
   "first_run_tabs": [
-    "http://search.ee.st"
+    "https://www.google.com/_/chrome/newtab?ie=UTF-8"
   ],
   "custom_links": {
     "initialized": true,
@@ -12,16 +12,48 @@
         "url": "https://ee.st/"
       },
       {
-        "title": "YouTube",
-        "url": "https://www.youtube.com/"
-      },
-      {
         "title": "Netflix",
         "url": "https://netflix.com"
       },
       {
         "title": "Hulu",
         "url": "https://www.hulu.com/"
+      },
+      {
+        "title": "9Anime",
+        "url": "https://9anime.to/"
+      },
+      {
+        "title": "Crunchy Roll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "title": "Funimation",
+        "url": "https://www.funimation.com/"
+      },
+      {
+        "title": "Disney+",
+        "url": "https://www.disneyplus.com/"
+      },
+      {
+        "title": "HBO Now",
+        "url": "https://play.hbonow.com/"
+      },
+      {
+        "title": "Amazon Video",
+        "url": "https://www.amazon.com/Amazon-Video/b?node=2858778011"
+      },
+      {
+        "title": "VRV",
+        "url": "https://vrv.co/"
+      },
+      {
+        "title": "Twitch",
+        "url": "https://www.twitch.tv/"
+      },
+      {
+        "title": "Mixer",
+        "url": "https://mixer.com/"
       }
     ]
   },
@@ -34,14 +66,7 @@
     "check_default_browser": false
   },
   "bookmark_bar": {
-    "show_on_all_tabs": false,
-    "show_apps_shortcut_bar": false
-  },
-  "extensions": {
-    "toolbarsize": 0,
-    "ui": {
-      "developer_mode": false
-    }
+    "show_on_all_tabs": false
   },
   "sync_promo": {
     "show_on_first_run_allowed": false
