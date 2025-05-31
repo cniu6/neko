@@ -18,7 +18,6 @@
   "PromptForDownloadLocation": false,
   "BookmarkBarEnabled": false,
   "PasswordManagerEnabled": false,
-  "BrowserLabsEnabled": false,
   "DefaultSearchProviderEnabled": true,
   "DefaultSearchProviderName": "DuckDuckGo",
   "DefaultSearchProviderSearchURL": "https://duckduckgo.com/?q={searchTerms}",
