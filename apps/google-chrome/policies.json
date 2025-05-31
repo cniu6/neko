@@ -18,11 +18,11 @@
   "PromptForDownloadLocation": false,
   "BookmarkBarEnabled": false,
   "PasswordManagerEnabled": false,
+  "BrowserLabsEnabled": false,
   "DefaultSearchProviderEnabled": true,
   "DefaultSearchProviderName": "DuckDuckGo",
   "DefaultSearchProviderSearchURL": "https://duckduckgo.com/?q={searchTerms}",
   "DefaultSearchProviderSuggestURL": "https://duckduckgo.com/ac/?q={searchTerms}&type=list",
-  "DefaultBrowserSettingEnabled": false,
   "URLAllowlist": [
     "file:///home/neko/Downloads"
   ],
@@ -36,7 +36,8 @@
     "chrome://settings/help",
     "chrome://about",
     "chrome://about/help",
-    "chrome://settings/people"
+    "chrome://settings/people",
+    "chrome://*"
   ],
   "ExtensionInstallForcelist": [
     "cjpalhdlnbpafiamejdnhcphjbkeiagm;https://clients2.google.com/service/update2/crx",
