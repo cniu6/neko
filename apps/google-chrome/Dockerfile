@@ -19,4 +19,3 @@ COPY supervisord.conf /etc/neko/supervisord/google-chrome.conf
 COPY --chown=neko preferences.json /home/neko/.config/google-chrome/Default/Preferences
 COPY policies.json /etc/opt/chrome/policies/managed/policies.json
 COPY openbox.xml /etc/neko/openbox.xml
-

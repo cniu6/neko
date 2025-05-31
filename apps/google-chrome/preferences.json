@@ -62,8 +62,7 @@
     "show_home_button": true,
     "window_placement": {
       "maximized": true
-    },
-    "check_default_browser": false
+    }
   },
   "bookmark_bar": {
     "show_on_all_tabs": false
@@ -100,7 +99,7 @@
       "payment_handler": 2,
       "usb_guard": 2
     },
-    "name": "room",
+    "name": "neko",
     "using_default_avatar": false,
     "using_default_name": false,
     "using_gaia_avatar": false
