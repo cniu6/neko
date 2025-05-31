@@ -1,5 +1,5 @@
 {
-  "homepage": "http://www.google.com",
+  "homepage": "https://share.ee.st/",
   "homepage_is_newtabpage": false,
   "first_run_tabs": [
     "https://share.ee.st/"
@@ -34,7 +34,8 @@
     "show_home_button": true,
     "window_placement": {
       "maximized": true
-    }
+    },
+    "check_default_browser": false
   },
   "bookmark_bar": {
     "show_on_all_tabs": false
