@@ -1,16 +1,12 @@
 {
-  "homepage": "https://share.ee.st/",
+  "homepage": "https://search.ee.st",
   "homepage_is_newtabpage": false,
   "first_run_tabs": [
-    "https://share.ee.st/"
+    "https://search.ee.st"
   ],
   "custom_links": {
     "initialized": true,
     "list": [
-      {
-        "title": "EE.ST",
-        "url": "https://www.ee.st/"
-      },
       {
         "title": "YouTube",
         "url": "https://www.youtube.com/"
@@ -18,6 +14,18 @@
       {
         "title": "Netflix",
         "url": "https://netflix.com"
+      },
+      {
+        "title": "Hulu",
+        "url": "https://www.hulu.com/"
+      },
+      {
+        "title": "9Anime",
+        "url": "https://9anime.to/"
+      },
+      {
+        "title": "Crunchy Roll",
+        "url": "https://www.crunchyroll.com/"
       },
       {
         "title": "Funimation",
@@ -28,8 +36,24 @@
         "url": "https://www.disneyplus.com/"
       },
       {
+        "title": "HBO Now",
+        "url": "https://play.hbonow.com/"
+      },
+      {
+        "title": "Amazon Video",
+        "url": "https://www.amazon.com/Amazon-Video/b?node=2858778011"
+      },
+      {
+        "title": "VRV",
+        "url": "https://vrv.co/"
+      },
+      {
         "title": "Twitch",
         "url": "https://www.twitch.tv/"
+      },
+      {
+        "title": "Mixer",
+        "url": "https://mixer.com/"
       }
     ]
   },
@@ -39,7 +63,8 @@
     "window_placement": {
       "maximized": true
     },
-    "check_default_browser": false
+    "check_default_browser": false,
+    "show_default_browser_prompt": false
   },
   "bookmark_bar": {
     "show_on_all_tabs": false
@@ -59,8 +84,9 @@
     "do_not_create_taskbar_shortcut": true,
     "do_not_launch_chrome": true,
     "do_not_register_for_update_launch": true,
-    "make_chrome_default": true,
-    "make_chrome_default_for_user": true,
+    "make_chrome_default": false,
+    "make_chrome_default_for_user": false,
+    "suppress_first_run_default_browser_prompt": true,
     "system_level": false,
     "verbose_logging": false
   },
@@ -83,5 +109,8 @@
   },
   "signin": {
     "allowed": false
+  },
+  "default_browser": {
+    "suppress_default_browser_prompt_for_version": "999.999.999.999"
   }
 }
