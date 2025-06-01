@@ -19,6 +19,8 @@
   "BookmarkBarEnabled": false,
   "PasswordManagerEnabled": false,
   "BrowserLabsEnabled": false,
+  "DefaultCookiesSetting": 1,
+  "RestoreOnStartup": 1,
   "URLAllowlist": [
     "file:///home/neko/Downloads"
   ],
