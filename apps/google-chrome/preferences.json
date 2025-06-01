@@ -38,7 +38,8 @@
     "show_home_button": true,
     "window_placement": {
       "maximized": true
-    }
+    },
+    "check_default_browser": false
   },
   "bookmark_bar": {
     "show_on_all_tabs": false
