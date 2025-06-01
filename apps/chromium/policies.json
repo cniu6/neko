@@ -23,18 +23,25 @@
     "file:///home/neko/Downloads"
   ],
   "URLBlocklist": [
-      "file://*",
-      "chrome://policy"
+    "chrome://policy",
+    "chrome://version",
+    "chrome://flags",
+    "chrome://settings",
+    "chrome://help",
+    "chrome://settings/help",
+    "chrome://about",
+    "chrome://about/help",
+    "chrome://settings/people"
   ],
   "ExtensionInstallForcelist": [
-      "cjpalhdlnbpafiamejdnhcphjbkeiagm;https://clients2.google.com/service/update2/crx",
-      "mnjggcdmjocbbbhaepdhchncahnbgone;https://clients2.google.com/service/update2/crx"
+    "cjpalhdlnbpafiamejdnhcphjbkeiagm;https://clients2.google.com/service/update2/crx",
+    "mnjggcdmjocbbbhaepdhchncahnbgone;https://clients2.google.com/service/update2/crx"
   ],
   "ExtensionInstallAllowlist": [
-      "cjpalhdlnbpafiamejdnhcphjbkeiagm",
-      "mnjggcdmjocbbbhaepdhchncahnbgone"
+    "cjpalhdlnbpafiamejdnhcphjbkeiagm",
+    "mnjggcdmjocbbbhaepdhchncahnbgone"
   ],
   "ExtensionInstallBlocklist": [
-      "*"
+    ""
   ]
 }

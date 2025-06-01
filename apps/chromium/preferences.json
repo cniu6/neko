@@ -1,8 +1,8 @@
 {
-  "homepage": "https://share.ee.st/",
+  "homepage": "http://www.google.com",
   "homepage_is_newtabpage": false,
   "first_run_tabs": [
-    "https://share.ee.st/"
+    "https://www.google.com/_/chrome/newtab?ie=UTF-8"
   ],
   "custom_links": {
     "initialized": true,
@@ -20,12 +20,24 @@
         "url": "https://netflix.com"
       },
       {
-        "title": "Disney+",
-        "url": "https://www.disneyplus.com/"
+        "title": "Hulu",
+        "url": "https://www.hulu.com/"
       },
       {
-        "title": "HBO Now",
-        "url": "https://play.hbonow.com/"
+        "title": "9Anime",
+        "url": "https://9anime.to/"
+      },
+      {
+        "title": "Crunchy Roll",
+        "url": "https://www.crunchyroll.com/"
+      },
+      {
+        "title": "Funimation",
+        "url": "https://www.funimation.com/"
+      },
+      {
+        "title": "Disney+",
+        "url": "https://www.disneyplus.com/"
       }
     ]
   },
@@ -34,8 +46,7 @@
     "show_home_button": true,
     "window_placement": {
       "maximized": true
-    },
-    "check_default_browser": false
+    }
   },
   "bookmark_bar": {
     "show_on_all_tabs": false
@@ -72,7 +83,7 @@
       "payment_handler": 2,
       "usb_guard": 2
     },
-    "name": "neko",
+    "name": "room",
     "using_default_avatar": false,
     "using_default_name": false,
     "using_gaia_avatar": false

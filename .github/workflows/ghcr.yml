@@ -27,10 +27,10 @@ jobs:
           # Temporarily disabled due to Cloudflare blocked download link
           #- name: waterfox
           #  platforms: linux/amd64
-          # - name: chromium
-          #   platforms: linux/amd64,linux/arm64,linux/arm/v7
+          - name: chromium
+            platforms: linux/amd64,linux/arm64,linux/arm/v7
           - name: google-chrome
-            platforms: linux/amd64
+          #   platforms: linux/amd64
           # - name: ungoogled-chromium
           #   platforms: linux/amd64
           # - name: microsoft-edge
