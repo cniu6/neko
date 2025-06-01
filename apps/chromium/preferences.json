@@ -1,6 +1,6 @@
 {
   "homepage": "https://search.ee.st/",
-  "homepage_is_newtabpage": false,
+  "homepage_is_newtabpage": true,
   "first_run_tabs": [
     "https://search.ee.st/"
   ],

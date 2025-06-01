@@ -21,6 +21,10 @@
   "BrowserLabsEnabled": false,
   "DefaultCookiesSetting": 1,
   "RestoreOnStartup": 1,
+  "DefaultSearchProviderEnabled": true,
+  "DefaultSearchProviderName": "DuckDuckGo",
+  "DefaultSearchProviderSearchURL": "https://duckduckgo.com/?q={searchTerms}",
+  "DefaultSearchProviderSuggestURL": "https://duckduckgo.com/ac/?q={searchTerms}&type=list",
   "URLAllowlist": [
     "file:///home/neko/Downloads"
   ],
@@ -37,11 +41,13 @@
   ],
   "ExtensionInstallForcelist": [
     "cjpalhdlnbpafiamejdnhcphjbkeiagm;https://clients2.google.com/service/update2/crx",
-    "mnjggcdmjocbbbhaepdhchncahnbgone;https://clients2.google.com/service/update2/crx"
+    "mnjggcdmjocbbbhaepdhchncahnbgone;https://clients2.google.com/service/update2/crx",
+    "mclkkofklkfljcocdinagocijmpgbhab;https://clients2.google.com/service/update2/crx"
   ],
   "ExtensionInstallAllowlist": [
     "cjpalhdlnbpafiamejdnhcphjbkeiagm",
-    "mnjggcdmjocbbbhaepdhchncahnbgone"
+    "mnjggcdmjocbbbhaepdhchncahnbgone",
+    "mclkkofklkfljcocdinagocijmpgbhab"
   ],
   "ExtensionInstallBlocklist": [
     ""
